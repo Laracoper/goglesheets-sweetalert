@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 icon: "error",
                 title: "Oops...",
                 text: "Пожалуйста, заполните все обязательные поля!",
-                footer: '<a href="/">повторить</a>'
+                // footer: '<a href="#">повторить</a>'
             });
         } else {
             console.log('Форма валидна. Отправляем данные...');
