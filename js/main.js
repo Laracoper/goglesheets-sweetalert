@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         // alert('Данные отправлены!');
                         Swal.fire({
                             icon: "success",
-                            title: "Данные успешно отправлены в гугл таблицу...",
+                            title: "Данные отправлены",
                         });
                         this.reset(); // Сбрасываем форму
                     } else {
